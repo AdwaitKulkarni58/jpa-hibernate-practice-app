@@ -1,6 +1,6 @@
 // This class is responsible for talking to the database
 
-package com.springboot.jpaandhibernate.jdbc;
+package com.springboot.jpaandhibernate.jdbc.course.jdbc;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
