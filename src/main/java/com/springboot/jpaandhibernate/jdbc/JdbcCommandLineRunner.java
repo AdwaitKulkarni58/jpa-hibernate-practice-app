@@ -1,3 +1,5 @@
+// This class is responsible for connecting and running the database every time the application starts
+
 package com.springboot.jpaandhibernate.jdbc;
 
 import org.springframework.beans.factory.annotation.Autowired;
