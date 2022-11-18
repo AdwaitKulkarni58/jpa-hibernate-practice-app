@@ -16,4 +16,13 @@ public class JPARepository {
 	public void insert(Course course) {
 		entityManager.merge(course);
 	}
+
+	public void deleteById(long id) {
+		Course course = entityManager.find(Course.class, id);
+		entityManager.remove(course);
+	}
+
+	public Course findById(long id) {
+		return entityManager.find(Course.class, id);
+	}
 }
