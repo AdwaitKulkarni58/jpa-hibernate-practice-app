@@ -14,8 +14,13 @@ public class JdbcRepository {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
+	private static String QUERY = """
+			INSERT INTO COURSE(ID, NAME, AUTHOR)
+			VALUES(?, ?, ?)
+			""";
+
 	public void insert(Course course) {
-		jdbcTemplate.update(course);
+		jdbcTemplate.update(QUERY, course.getId(), course.getName(), course.getAuthor());
 	}
 
 }
