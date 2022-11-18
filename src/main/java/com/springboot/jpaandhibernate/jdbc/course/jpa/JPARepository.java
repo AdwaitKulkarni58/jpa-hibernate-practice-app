@@ -1,3 +1,5 @@
+// This class is responsible for talking to the database using JPA
+
 package com.springboot.jpaandhibernate.jdbc.course.jpa;
 
 import org.springframework.stereotype.Repository;

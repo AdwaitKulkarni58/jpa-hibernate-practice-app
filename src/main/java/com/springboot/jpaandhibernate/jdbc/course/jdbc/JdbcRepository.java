@@ -1,4 +1,4 @@
-// This class is responsible for talking to the database
+// This class is responsible for talking to the database using JDBC
 
 package com.springboot.jpaandhibernate.jdbc.course.jdbc;
 
